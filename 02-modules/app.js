@@ -1,4 +1,4 @@
-import add from './math.js';
+import {add} from './math.js';
 
 function addNumbers(a, b) {
     console.log(add(a, b));

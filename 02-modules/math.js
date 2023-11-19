@@ -1,5 +1,7 @@
-function add(a, b) {
+export function add(a, b) {
     return a + b;
 }
 
-export default add;
+export function substract(a, b) {
+    return a - b;
+}

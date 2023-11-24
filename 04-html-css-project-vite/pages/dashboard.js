@@ -32,7 +32,8 @@ function renderTitles(movieList, containerElement) {
         const movieTitle = document.createElement("p");
 
         div.classList.add("d-flex", "flex-column");
-        img.src = `../assets/${movie.img}`;
+        // img.src = `../assets/${movie.img}`;
+        img.src = new URL(`../assets/${movie.img}`, import.meta.url).href;
         movieTitle.innerText = movie.name;
         movieTitle.classList.add(
             "align-self-center",

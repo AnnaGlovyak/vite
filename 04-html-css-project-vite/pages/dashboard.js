@@ -1,5 +1,6 @@
 import "../css/dashboard.css";
 import "../css/styles.css";
+import movieDb from "../assets/movieDb.json";
 
 const actionMoviesContainer = document.getElementById("action-movies-container");
 const animatedMoviesContainer = document.getElementById("animated-movies-container");

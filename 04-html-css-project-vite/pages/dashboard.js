@@ -1,6 +1,6 @@
-import "../css/dashboard.css";
-import "../css/styles.css";
-import buttonStyle from "../css/buttonStyle.module.css";
+import "../css/dashboard.scss";
+import "../css/styles.scss";
+import buttonStyle from "../css/buttonStyle.module.scss";
 import movieDb from "../assets/movieDb.json";
 
 const userType = "regular";
@@ -9,8 +9,8 @@ const actionMoviesContainer = document.getElementById("action-movies-container")
 const animatedMoviesContainer = document.getElementById("animated-movies-container");
 const signoutBtn = document.getElementById("signout");
 
-console.log(buttonStyle)
-const buttonClass = userType === "premium" ? buttonStyle["button-premium"] : buttonStyle["button-regular"]
+console.log(buttonStyle);
+const buttonClass = userType === "premium" ? buttonStyle["button-premium"] : buttonStyle["button-regular"];
 signoutBtn.classList.add(buttonClass);
 
 const actionMoviesList = [

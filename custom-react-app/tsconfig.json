@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
         "target": "ES6",
+        "baseUrl": "src",
         "skipLibCheck": true,
         "lib": [
             "ES2020",
@@ -10,6 +11,20 @@
         "module": "ES6",
         "jsx": "react-jsx",
         "moduleResolution": "Bundler",
-        "types": ["vite/client"]
-    }
+        "types": [
+            "vite/client"
+        ],
+        "paths": {
+            "~assets/*": [
+                "src/assets/*"
+            ],
+            "~components/*": [
+                "src/components/*"
+            ],
+            "~/*": [
+                "src/*"
+            ]
+        },
+    },
+    "include": ["src"]
 }

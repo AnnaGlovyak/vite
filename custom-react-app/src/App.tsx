@@ -1,9 +1,11 @@
 import './App.css'
-import GlowButton from './components/Button/GlowButton/GlowButton'
-import IconButton from './components/Button/IconBtn/IconButton'
-import RoundedButton from './components/Button/RoundedButton/RoundedButton'
-import HoverText from './components/Typography/HoverText/HoverText'
-import SlicedText from './components/Typography/Sliced/Sliced'
+import GlowButton from '~components/Button/GlowButton/GlowButton'
+import IconButton from '~components/Button/IconBtn/IconButton'
+import RoundedButton from '~components/Button/RoundedButton/RoundedButton'
+import HoverText from '~components/Typography/HoverText/HoverText'
+import SlicedText from '~components/Typography/Sliced/Sliced'
+
+let title = "Some title";
 
 function App() {
 

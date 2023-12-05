@@ -4,6 +4,10 @@
   "description": "",
   "main": "./dist/uiLib.js",
   "type": "module",
+  "browserslist": [
+    "last 1 version",
+    "dead"
+  ],
   "files": [
     "dist"
   ],
@@ -32,6 +36,8 @@
     "@vitejs/plugin-react": "^4.2.0",
     "eslint": "^8.55.0",
     "eslint-config-react-app": "^7.0.1",
+    "autoprefixer": "^10.4.16",
+    "postscss": "^2.0.0",
     "typescript": "^5.3.2",
     "vite": "^5.0.4",
     "vite-aliases": "^0.11.3",

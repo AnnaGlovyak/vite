@@ -14,7 +14,7 @@ function App() {
       <div className='row'>
 
         <div className='column'>
-          <h2>Buttons Types</h2>
+          <h2>Hello words</h2>
           <GlowButton />
           <RoundedButton />
           <IconButton type="info"/>

@@ -1,6 +1,7 @@
 import "../css/dashboard.scss";
 import "../css/styles.scss";
-import _ from "lodash";
+// import forEach from "lodash/forEach"; // use with lodas
+import {forEach} from "lodash-es";
 import buttonStyle from "../css/buttonStyle.module.scss";
 import movieDb from "../assets/movieDb.json";
 
@@ -38,7 +39,7 @@ signoutBtn.addEventListener("click", function(){
 })
 
 function renderTitles(movieList, containerElement) {
-    _.forEach(movieList, (movie) => {
+    forEach(movieList, (movie) => {
         const div = document.createElement("div");
         const img = document.createElement("img");
         const movieTitle = document.createElement("p");
